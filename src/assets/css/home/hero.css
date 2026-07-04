@@ -378,8 +378,16 @@
     /* align-items: center; */
   }
 
-  .top-item {
+   .top-item {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
     font-size: 11px;
+
+    color: rgba(255, 255, 255, 0.92);
   }
 
   .hero-buttons {
@@ -413,9 +421,11 @@
   }
 
   .top-bar {
-    width: 92%!important;
-    
-    top: -128px;
+    width: 75%!important;
+    top: -137px!important;
+  }
+    .top-item {
+    font-size: 8px;
   }
 
   .nav-btn {
@@ -441,7 +451,7 @@
   }
 
   .top-item {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .hero-buttons {
