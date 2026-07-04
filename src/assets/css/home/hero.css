@@ -298,7 +298,7 @@
     /* flex-direction: column; */
     width: 80% !important;
     gap: 12px;
-    top: -150px;
+    top: -110px!important;
     transform: translateX(-50%);
     width: min(1200px, 95%);
     padding: 16px 30px;
@@ -328,7 +328,7 @@
 
     gap: 8px;
 
-    font-size: 14px;
+    font-size: 11px;
 
     color: rgba(255, 255, 255, 0.92);
   }
@@ -364,7 +364,7 @@
   }
 
   .top-bar {
-    top: -170px;
+    top: -120px;
 
     padding: 14px;
   }
@@ -379,7 +379,7 @@
   }
 
   .top-item {
-    font-size: 13px;
+    font-size: 11px;
   }
 
   .hero-buttons {
@@ -413,9 +413,9 @@
   }
 
   .top-bar {
-    width: 92%;
-
-    top: -185px;
+    width: 92%!important;
+    
+    top: -128px;
   }
 
   .nav-btn {
@@ -441,7 +441,7 @@
   }
 
   .top-item {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .hero-buttons {
