@@ -1,0 +1,218 @@
+.products-section {
+  padding: 100px 80px;
+  background: #f6f6f6;
+}
+
+.products-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.products-header h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.products-header p {
+  color: #666;
+  font-size: 18px;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.product-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+/* BORDER ANIMATION */
+
+/* top & bottom */
+.product-card::before,
+.product-card::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0%;
+  background: #5bd475;
+  transition: width 0.4s ease;
+}
+
+.product-card::before {
+  top: 0;
+  left: 0;
+}
+
+.product-card::after {
+  bottom: 0;
+  right: 0;
+}
+
+/* left & right */
+.product-card span::before,
+.product-card span::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 0%;
+  background: #5bd475;
+  transition: height 0.4s ease;
+}
+
+.product-card span::before {
+  top: 0;
+  left: 0;
+}
+
+.product-card span::after {
+  bottom: 0;
+  right: 0;
+}
+
+/* hover animation */
+.product-card:hover::before,
+.product-card:hover::after {
+  width: 100%;
+}
+
+.product-card:hover span::before,
+.product-card:hover span::after {
+  height: 100%;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+}
+
+.product-image {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+.product-card:hover .product-image img {
+  transform: scale(1.05);
+}
+
+.product-info {
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.product-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.product-top h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  flex-shrink: 0;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: 700;
+  color: #5bd475;
+  margin-bottom: 12px;
+}
+
+.product-info p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.star {
+  color: #ccc;
+  font-size: 16px;
+}
+
+.star.active {
+  color: #ffc107;
+}
+
+.rating-number {
+  font-size: 14px;
+  color: #666;
+}
+
+.product-bottom {
+  margin-top: auto;
+}
+
+.details-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #5bd475;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.details-btn:hover {
+  background: #00e513;
+}
+
+/* RESPONSIVE */
+
+/* Tablet */
+@media (max-width: 900px) {
+  .products-section {
+    padding: 80px 40px;
+  }
+}
+
+
+
+/* Mobile */
+@media (max-width: 600px) {
+  .products-section {
+    padding: 60px 20px;
+  }
+
+  .products-header h2 {
+    font-size: 28px;
+  }
+
+  .products-header p {
+    font-size: 15px;
+  }
+
+  .product-image {
+    height: 160px;
+  }
+}
