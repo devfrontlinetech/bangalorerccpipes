@@ -371,7 +371,7 @@
 
   .top-left,
   .top-right {
-    flex-direction: column;
+    /* flex-direction: column; */
 
     gap: 10px;
 
@@ -399,9 +399,9 @@
   }
 }
 
-/* ========================= */
+
 /* 576px */
-/* ========================= */
+
 
 @media (max-width: 576px) {
   .hero-title {
@@ -423,6 +423,14 @@
   .top-bar {
     width: 75%!important;
     top: -137px!important;
+  }
+   .top-left,
+  .top-right {
+    flex-direction: column;
+
+    gap: 10px;
+
+    /* align-items: center; */
   }
     .top-item {
     font-size: 8px;
