@@ -80,12 +80,12 @@ const Hero = () => {
           <div className="top-left">
             <span className="top-item">
               <FaMapMarkerAlt />
-              Kochi, Kerala
+              Bangalore, Karnataka
             </span>
 
             <span className="top-item">
               <FaEnvelope />
-              info@kochirccpipes.in
+              info@bangalorerccpipes.in
             </span>
           </div>
 

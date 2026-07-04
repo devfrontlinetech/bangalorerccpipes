@@ -125,7 +125,7 @@ const Footer = () => {
 
           <p>
             <FaMapMarkerAlt className="footer-icon" />
-            Kochi, Kerala, India
+            Bangalore, Karnataka, India
           </p>
 
           <p>
@@ -135,7 +135,7 @@ const Footer = () => {
 
           <p>
             <FaEnvelope className="footer-icon" />
-            info@kochirccpipes.in
+            info@bangalorerccpipes.in
           </p>
 
           <p className="footer-hours">Mon - Sat : 9:00 AM - 7:00 PM</p>
