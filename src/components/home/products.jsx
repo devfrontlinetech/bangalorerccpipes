@@ -134,7 +134,7 @@ const Products = () => {
       name: "Culvert Pipe",
       material: "Concrete",
       size: "600mm - 1800mm",
-      price: "₹2,700 / meter",
+      price: "₹2,900 / meter",
       rating: 4,
       image: pipe12,
     },
