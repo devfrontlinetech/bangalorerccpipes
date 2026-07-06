@@ -28,6 +28,7 @@ const Products = () => {
     const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
   };
+
   const products = [
     {
       id: 1,

@@ -23,7 +23,7 @@ const Contact = () => {
 
             <div className="contact-text">
               <h4>Address</h4>
-              <p>Chennai, Tamil Nadu, India</p>
+              <p>Bangalore, Karnataka, India</p>
             </div>
           </div>
 
@@ -34,7 +34,7 @@ const Contact = () => {
 
             <div className="contact-text">
               <h4>Phone</h4>
-              <p>+91 98765 43210</p>
+              <p>+91 96005 44451</p>
             </div>
           </div>
 
@@ -45,7 +45,7 @@ const Contact = () => {
 
             <div className="contact-text">
               <h4>Email</h4>
-              <p>info@pigeonconstruction.com</p>
+              <p>info@bangalorerccpipes.in</p>
             </div>
           </div>
         </div>
