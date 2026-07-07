@@ -11,7 +11,7 @@ import { MdConstruction } from "react-icons/md";
 const Hero = () => {
   const texts = [
     {
-      title: "Mayura Concrete Products",
+      title: "RCC Concrete Products",
       subtitle: "Building Reliable Infrastructure",
     },
     {
@@ -92,7 +92,7 @@ const Hero = () => {
           <div className="top-right">
             <span className="top-item">
               <FaPhoneAlt />
-              +91 96005 44451
+              +91 94865 44451
             </span>
             <span className="top-item">
               <FaClock />

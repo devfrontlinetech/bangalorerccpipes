@@ -21,7 +21,7 @@ import pipe16 from "../../assets/images/products/pro-12.jpg";
 import { FaStar } from "react-icons/fa";
 
 const Products = () => {
-  const whatsappNumber = "919876543210";
+  const whatsappNumber = "919486544451";
 
   const sendWhatsapp = (product) => {
     const message = `Hello, I'm interested in ${product.name}. Please share more details.`;
