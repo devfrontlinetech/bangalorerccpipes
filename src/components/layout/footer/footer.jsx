@@ -125,7 +125,8 @@ const Footer = () => {
 
           <p>
             <FaMapMarkerAlt className="footer-icon" />
-            Bangalore, Karnataka, India
+            Immadihalli Main Rd, Immadihalli, Whitefield, Bengaluru, Karnataka
+            560066
           </p>
 
           <p>
