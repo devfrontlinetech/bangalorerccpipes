@@ -23,7 +23,7 @@ const Contact = () => {
 
             <div className="contact-text">
               <h4>Address</h4>
-              <p>Immadihalli Main Rd, Immadihalli, Whitefield, Bengaluru, </p>
+              <p>Immadihalli Main Rd, Immadihalli, Whitefield, Bangalore, </p>
             </div>
           </div>
 
