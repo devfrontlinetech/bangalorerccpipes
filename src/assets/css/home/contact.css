@@ -1,12 +1,8 @@
-/* SECTION */
-
 .contact-section {
   padding: 100px 80px;
   background: #f8f8f8;
   font-family: Arial, Helvetica, sans-serif;
 }
-
-/* HEADER */
 
 .contact-header {
   text-align: center;
@@ -24,6 +20,7 @@
   max-width: 600px;
   margin: auto;
   line-height: 1.6;
+  text-align: justify;
 }
 
 /* CONTAINER */
