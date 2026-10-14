@@ -110,7 +110,7 @@ const Footer = () => {
             </li>
             <li>
               <FaIndustry className="footer-link-icon" /> Infrastructure
-              Development
+              Development 
             </li>
             <li>
               <FaTools className="footer-link-icon" /> Engineering Consulting
