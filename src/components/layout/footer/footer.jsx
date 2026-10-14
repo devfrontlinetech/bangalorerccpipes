@@ -108,7 +108,7 @@ const Footer = () => {
             <li>
               <FaIndustry className="footer-link-icon" /> Drainage Systems
             </li>
-            <li>
+            <li> 
               <FaIndustry className="footer-link-icon" /> Infrastructure
               Development 
             </li>
