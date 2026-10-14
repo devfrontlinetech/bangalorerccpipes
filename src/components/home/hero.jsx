@@ -101,7 +101,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-
+ 
       <div className="hero-buttons">
         <button onClick={prevSlide} className="nav-btn">
           <FaArrowLeft />
