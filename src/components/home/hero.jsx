@@ -76,7 +76,7 @@ const Hero = () => {
           Get Products
         </button>
 
-        <div className="top-bar">
+        <div className="top-bar"> 
           <div className="top-left">
             <span className="top-item">
               <FaMapMarkerAlt />
