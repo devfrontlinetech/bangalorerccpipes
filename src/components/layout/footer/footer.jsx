@@ -38,7 +38,7 @@ const Footer = () => {
           <img src={logo} alt="Pigeon Company" className="footer-logo" />
 
           <p>
-            Mayura company provides professional pipeline construction,
+            Our company provides professional pipeline construction,
             infrastructure development, and engineering solutions across India.
           </p>
 
