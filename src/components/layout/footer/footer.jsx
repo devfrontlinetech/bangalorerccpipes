@@ -34,7 +34,7 @@ const Footer = () => {
     <footer className="footer-section">
       <div className="footer-container">
         {/* COMPANY INFO */}
-        <div className="footer-about">
+        <div className="footer-about"> 
           <img src={logo} alt="Pigeon Company" className="footer-logo" />
 
           <p>
