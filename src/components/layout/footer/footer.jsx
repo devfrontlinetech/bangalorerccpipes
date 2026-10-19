@@ -34,7 +34,7 @@ const Footer = () => {
     <footer className="footer-section">
       <div className="footer-container">
         {/* COMPANY INFO */}
-        <div className="footer-about"> 
+        <div className="footer-about">
           <img src={logo} alt="Pigeon Company" className="footer-logo" />
 
           <p>
@@ -108,9 +108,9 @@ const Footer = () => {
             <li>
               <FaIndustry className="footer-link-icon" /> Drainage Systems
             </li>
-            <li> 
+            <li>
               <FaIndustry className="footer-link-icon" /> Infrastructure
-              Development 
+              Development
             </li>
             <li>
               <FaTools className="footer-link-icon" /> Engineering Consulting
