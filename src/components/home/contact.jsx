@@ -18,7 +18,7 @@ const Contact = () => {
         <div className="contact-info">
           <div className="contact-card">
             <div className="contact-icon-box">
-              <FaMapMarkerAlt />
+              <FaMapMarkerAlt /> 
             </div>
 
             <div className="contact-text">
@@ -32,7 +32,7 @@ const Contact = () => {
               <FaPhoneAlt />
             </div>
 
-            <div className="contact-text">
+            <div className="contact-text"> 
               <h4>Phone</h4>
               <p>+91 94865 44451</p>
             </div>
