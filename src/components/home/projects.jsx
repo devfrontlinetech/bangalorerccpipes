@@ -68,7 +68,7 @@ const Projects = () => {
                     <MdEngineering className="project-icon" />
                     {project.name}
                   </h3>
- 
+
                   <p className="project-year">
                     <FaCalendarAlt /> {project.year}
                   </p>
@@ -85,7 +85,7 @@ const Projects = () => {
             </div>
           </div>
         ))}
-      </div> 
+      </div>
     </section>
   );
 };
