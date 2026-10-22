@@ -61,7 +61,7 @@ const Projects = () => {
             <div className="project-image">
               <img src={project.image} alt={project.name} />
 
-              {/* Hover Content */}
+              {/* Hover Content */} 
               <div className="project-overlay"> 
                 <div className="project-overlay-content">
                   <h3 className="project-title">
