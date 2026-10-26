@@ -40,7 +40,7 @@ function Bottomnav({ onMenuClick }) {
         >
           <FaShoppingCart />
           {/* <span>Products</span> */}
-        </button>
+        </button> 
 
         <button
           className="menu-item item3"
