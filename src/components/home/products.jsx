@@ -194,7 +194,7 @@ const Products = () => {
               <div className="product-top">
                 <h3>{product.name}</h3>
 
-                <div className="rating">
+                <div className="rating"> 
                   {[...Array(5)].map((star, index) => (
                     <FaStar
                       key={index}
