@@ -10,7 +10,7 @@ import {
   FaWhatsapp,
   FaBars,
   FaTimes,
-  FaPhoneAlt
+  FaPhoneAlt,
 } from "react-icons/fa";
 
 function Bottomnav({ onMenuClick }) {
@@ -40,7 +40,7 @@ function Bottomnav({ onMenuClick }) {
         >
           <FaShoppingCart />
           {/* <span>Products</span> */}
-        </button> 
+        </button>
 
         <button
           className="menu-item item3"
