@@ -42,7 +42,7 @@ const Hero = () => {
     return () => clearInterval(auto);
   }, [nextSlide]);
 
-  const scrollToProducts = () => {
+  const scrollTPoroducts = () => {
     const section = document.getElementById("products");
 
     if (section) {
