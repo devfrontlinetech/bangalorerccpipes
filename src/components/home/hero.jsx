@@ -42,7 +42,7 @@ const Hero = () => {
     return () => clearInterval(auto);
   }, [nextSlide]);
 
-  const scrollTPoroducts = () => {
+  const scrollToProducts = () => {
     const section = document.getElementById("products");
 
     if (section) {
@@ -76,7 +76,7 @@ const Hero = () => {
           Get Products
         </button>
 
-        <div className="top-bar">
+        <div className="top-bar"> 
           <div className="top-left">
             <span className="top-item">
               <FaMapMarkerAlt />
@@ -101,7 +101,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-
+ 
       <div className="hero-buttons">
         <button onClick={prevSlide} className="nav-btn">
           <FaArrowLeft />
