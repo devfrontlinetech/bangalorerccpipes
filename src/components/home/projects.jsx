@@ -63,7 +63,7 @@ const Projects = () => {
 
               {/* Hover Content */}
               <div className="project-overlay">
-                <div className="project-overlay-content"> 
+                <div className="project-overlay-content">
                   <h3 className="project-title">
                     <MdEngineering className="project-icon" />
                     {project.name}
