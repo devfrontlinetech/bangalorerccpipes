@@ -96,7 +96,7 @@ const Hero = () => {
             </span>
             <span className="top-item">
               <FaClock />
-              Mon - Sat : 9AM - 7PM
+              Mon - Sat : 9AM - 8PM
             </span>
           </div>
         </div>
