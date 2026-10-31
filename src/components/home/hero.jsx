@@ -88,7 +88,7 @@ const Hero = () => {
               info@bangalorerccpipes.in
             </span>
           </div>
- 
+
           <div className="top-right">
             <span className="top-item">
               <FaPhoneAlt />
